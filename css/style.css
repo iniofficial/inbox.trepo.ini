@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins' , 'roboto';
+}
+
+::-webkit-scrollbar{
+    width: 0em;
+}
+
+/* left section  */
+
+.left-section{
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    background: #4c4c57;
+}
+
+.left-section a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.left-section li{
+    list-style: none;
+}
+
+.left-section a .padding-top{
+    margin-top: 45%;
+}
+
+.left-section a .hover:hover{
+    transition: .3s;
+    color: rgb(138, 138, 138);
+}
+
+
+
+.left-section a li p{
+    font-size: 25px;
+}
+
+.left-section a li i{
+    font-size: 25px;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    margin-left: 12%;
+}
+
+.section-2{
+    margin-left: 12%;
+    padding: 20px;
+}
+
+.inbox{
+    margin-left: 2%;
+}
+
+.inbox .mail-1{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-left: -20px;
+}
+
+.inbox .mail-2{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.inbox .mail-3{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.inbox .mail-4{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.inbox .mail-5{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.inbox .mail-6{
+    background: #4040499f;
+    width: 750px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.inbox h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.inbox p{
+    letter-spacing: -1px;
+    font-size: 20px;
+}
+
+.inbox .one-line h3{
+    font-size: 25px;
+}
+
+.inbox .one-line i{
+    margin: 5px;
+}
+
+.inbox a{
+    text-decoration: none;
+    color: black;
+}
+
+.one-line-mail{
+    padding: 20px;
+}
+
+.inbox .open{
+    margin-top: -37px;
+    margin-left: 71%;
+}
+
+.inbox .reply{
+    margin-top: -50px;
+    margin-left: 25%;
+}
+
+.section-3{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 72%;
+    margin-top: -50%;
+    background: rgb(138, 138, 138);
+}
+
+.section-3 .mail-input input{
+    padding: 10px;
+    width: 370px;
+    background: none;
+    color: black;
+    font-family: 'poppins';
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    border: none;
+}
+
+.section-3 .mail-input input::placeholder{
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.section-3 .line{
+    background: rgba(0, 0, 0, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 300px;
+}
+
+.section-3 .title{
+    height: 25px;
+    border-radius: 10px;
+    width: 100vh;
+    margin-top: 0px;
+    background: rgb(138, 138, 138);
+    color: white;
+}
+
+.section-3 .title p{
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.section-3 .text textarea{
+    width: 370px;
+    height: 300px;
+    outline: none;
+    background: none;
+    padding: 20px;
+    font-family: 'poppins' , 'roboto';
+    font-size: 18px;
+    border: none;
+}
+
+.section-3 .text textarea::placeholder{
+    color: rgba(63, 63, 63, 0.719);
+}
+
+.section-3 .sent-button h3{
+    font-size: 20px;
+}
+
+.section-3 .sent-button a{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+
+.section-4{
+    float: right;
+    margin-top: -850px;
+    margin-right: 70px;
+}
+
+
+.section-4 .account a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.section-4 .account{
+    position: fixed;
+}
